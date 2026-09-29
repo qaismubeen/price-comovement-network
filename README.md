@@ -1,4 +1,4 @@
-Price Co-Movement Network — Item-Level CPI Graph Analysis
+﻿Price Co-Movement Network â€” Item-Level CPI Graph Analysis
 
 This project builds a graph-based model of consumer price behavior across Pakistan using three years of real Consumer Price Index data from the Pakistan Bureau of Statistics. Every node in the network is a consumer item. Every edge means two items moved in price together in a consistent pattern across multiple cities at the same time.
 
@@ -48,7 +48,34 @@ Stack
 
 Python, Pandas, NumPy, scikit-learn, NetworkX, Matplotlib
 
-Data source: Pakistan Bureau of Statistics — pbs.gov.pk
+Data source: Pakistan Bureau of Statistics â€” pbs.gov.pk
 
 To run:
 python main.py
+
+<!-- structure:start -->
+## Project structure
+
+**Stack:** Python
+
+```
+Graphs_Outputs/
+    centrality_betweenness.png
+    centrality_degree.png
+    comparison_3years.png
+    comparison_thresholds.png
+    comparison_weights.png
+    graph_year_2022.png
+    graph_year_2023.png
+    graph_year_2024.png
+.gitignore
+cpi_data.csv
+Graphs
+main.py
+Pagerank5.pdf
+PBS Project.pdf
+Project Report.pdf
+README.md
+```
+<!-- structure:end -->
+
